@@ -1,3 +1,11 @@
+Version 2.6.0 - Nov 24, 2026
+
+- Add support for the getminingcandidate / submitminingsolution RPCs,
+  building the coinbase from --coinbase-addr
+- Add --always-gmc to use getminingcandidate with no fallback to other RPCs
+- Docker: runtime-only image without the build toolchain, published to
+  GHCR for linux/amd64 and linux/arm64 on version tags
+
 Version 2.5.1 - Jun 25, 2020
 
 - Add support for bech32 addresses (BIP 173)
